@@ -1,9 +1,6 @@
 
-# This is the server logic for a Shiny web application.
-# You can find out more about building applications with Shiny here:
-#
-# http://shiny.rstudio.com
-#
+#Server file to create dynamic cross tab bubble charts of AEs from Open FDA database in R shiny
+#updated by Hannah K. 5/23/17
 
 library(shiny)
 load("openfda_example.rds")
