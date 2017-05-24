@@ -1,10 +1,10 @@
 ###### openFDA_AEs_by_country.R
-###### Updated by Hannah K. 5/21/17
+###### Updated by Hannah K. 5/23/17
 ###### Mine OpenFDA database for information about adverse events
 ###### Check if adverse event reporting is different across different countries
 ###### Deep dive into most commonly reported AEs in countries reporting the most AEs overall
 
-#install.packages(c("httr", "jsonlite", "lubridate", "plyr"))
+#install.packages(c("httr", "jsonlite", "plyr"))
 library("httr")
 library("jsonlite")
 library("plyr")
